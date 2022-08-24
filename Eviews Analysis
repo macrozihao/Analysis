@@ -1,0 +1,10 @@
+it=log(interest)
+p1=log(cpi)
+inflation=100*(p-p(-4))
+y=log(rgdp)
+//y_star=proc(Hodrick Proscott Filter)
+outputgap=100*(y-y_star)
+it c inflation outputgap
+asset1=log(housing)
+s1=100*(asset1-asset1(-4))
+it c inflation outputgap s1(-1) s1(-2)
