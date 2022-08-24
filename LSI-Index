@@ -1,0 +1,4 @@
+library(psych)
+pc<-principal(ry, nfactors = 1, rotate = "varimax")
+pc
+round(unclass(pc$weights),2)
